@@ -24,8 +24,8 @@ app.use('/posts', postRoute)
 
 app.listen(PORT, async()=> {
    try {
-       await myServer
-     console.log("connect to DB");
+       await myServer 
+     console.log("connected to DB");
    } catch (error) {
     console.log(error);
    } 
